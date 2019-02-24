@@ -1,5 +1,5 @@
-# TemplateMatchClassifier
-Machine Learning in Python - Roll your Own Estimator Example for TemplateMatchClassifier
+## TemplateMatchClassifier
+# Machine Learning in Python - Roll your Own Estimator Example for TemplateMatchClassifier
 
 This notebooks demonstrates how scikit-learn can be extended to include new models by implementing the TemplateMatchClassifier.
 
@@ -9,4 +9,5 @@ The TemplateMatchClassifier is very simple:
 
 Training: For each target feature level calculate the average value of all descriptive features for instances that have that target level. Store these average vectors as templates for each target level.
 Prediction: When a new prediction needs to be made compare the descriptive feature values of the new query instance to each template and return the target feature level that belongs to the template that is cloesest (based on Euclidean distance) to the query case.
-##NOTE THAT THE TEMPLATEMATCHCLASSIFIER IS A TERRIBLE MODEL AND IS ONLY USED AS A VERY SIMPLE DEMONSTRATION OF HOW TO IMPLEMENT AN ML ALGORITHM IN SCIKIT-LEARN
+
+NOTE THAT THE TEMPLATEMATCHCLASSIFIER IS A TERRIBLE MODEL AND IS ONLY USED AS A VERY SIMPLE DEMONSTRATION OF HOW TO IMPLEMENT AN ML ALGORITHM IN SCIKIT-LEARN
