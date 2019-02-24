@@ -1,7 +1,7 @@
 ## TemplateMatchClassifier
 # Machine Learning in Python - Roll your Own Estimator Example for TemplateMatchClassifier
 
-This notebooks demonstrates how scikit-learn can be extended to include new models by implementing the TemplateMatchClassifier.
+This classifier demonstrates how scikit-learn can be extended to include new models by implementing the TemplateMatchClassifier.
 
 The TemplateMatchClassifier is a very basic classification algorithm that calculates the average value of all descriptive features for all instances that have that target level in a training dataset and when asked to make a prediction returns the closet match(based on Euclidean distance) by comparing the descriptive feature values of the query instance to every target level in the template.
 
